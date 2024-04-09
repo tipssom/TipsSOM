@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Madimi+One&display=swap");
+
+/*TODO: ELIMINAR ESTILOS PREDEFINIDOS DE LA PÁGINA */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+
+  font-family: "Madimi One", Arial, Helvetica, sans-serif;
+  cursor: auto;
+}
+
+.pie-pagina {
+  position: absolute;
+
+  bottom: 0px;
+
+  color: #fff;
+  background-color: #000;
+
+  width: 100%;
+  height: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

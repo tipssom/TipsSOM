@@ -43,7 +43,7 @@
 
   filter: grayscale(100%);
 
-  background-image: url(13105970_5146900.jpeg);
+  background-image: url(/Images/13105970_5146900.jpeg);
   background-size: cover;
   background-position: center;
 
@@ -84,7 +84,7 @@
 
   filter: grayscale(100%);
 
-  background-image: url(computer-program-coding-screen.jpg);
+  background-image: url(/Images/computer-program-coding-screen.jpg);
   background-size: cover;
 
   display: flex;
