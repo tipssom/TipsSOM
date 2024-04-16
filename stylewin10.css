@@ -63,7 +63,7 @@
 .win-body {
   display: flex;
 
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
 
   height: 100vh;
@@ -71,8 +71,19 @@
 .listas {
   display: flex;
 
-  gap: 50px;
+  gap: 20px;
+  position: absolute;
+
+  top: 40px;
 }
+.listas section{
+  display: flex;
+  flex-direction: row;
+
+  gap: 20px;  
+}
+
+
 
 
 /** ESTILOS DEL PIE DE PÁGINA QUE SE UTILIZA EN TODAS LAS PESTAÑAS */
