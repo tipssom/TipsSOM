@@ -74,7 +74,10 @@
   gap: 20px;
   position: absolute;
 
+  padding: 20px;
+
   top: 40px;
+  font-size: 12px;
 }
 .listas section{
   display: flex;
@@ -90,7 +93,7 @@
 .pie-pagina {
   position: absolute;
 
-  bottom: 0px;
+  bottom: 0;
 
   color: #fff;
   background-color: #000;
