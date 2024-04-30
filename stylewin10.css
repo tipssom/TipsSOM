@@ -3,7 +3,7 @@
 /*TODO: ELIMINAR ESTILOS PREDEFINIDOS DE LA PÁGINA */
 * {
   margin: 0;
-  padding: 10px;
+  padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
 
