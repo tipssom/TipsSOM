@@ -11,10 +11,87 @@
   cursor: auto;
 }
 
+/*! PÁGINA DE ELECCION WINDOWS 10 TIPOS DE TIPS*/
+
+/*? CUERPO DE LA PÁGINA */
+.cuerpo-win {
+  /** Centrar contenido de la página. */
+  display: flex;
+
+  justify-content: space-evenly;
+  align-items: center;
+
+  height: 100vh;
+}
+.titulo {
+  position: absolute;
+
+  top: 10%;
+}
+
+.tarjetas {
+  /** Centrar contenido de las tarjetas. */
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  background-color: red;
+
+  border-radius: 10px;
+
+  width: 25%;
+  height: 50%;
+
+  cursor: pointer;
+
+  font-size: 200%;
+
+  color: #fff;
+  text-decoration: none;
+}
+.tarjeta1 {
+}
+.tarjeta2 {
+}
+.tarjeta3 {
+}
+.tarjeta4 {
+}
+
+/*? OPTIMIZACION DE WINDOWS */
+.win-body {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+}
+.listas {
+  display: flex;
+
+  gap: 20px;
+  position: absolute;
+
+  padding: 20px;
+  font-size: 12px;
+}
+.listas section{
+  display: flex;
+  flex-direction: row;
+
+  gap: 20px;  
+}
+
+
+
+
+/** ESTILOS DEL PIE DE PÁGINA QUE SE UTILIZA EN TODAS LAS PESTAÑAS */
 .pie-pagina {
   position: absolute;
 
-  bottom: 0px;
+  bottom: 0;
 
   color: #fff;
   background-color: #000;
