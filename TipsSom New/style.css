@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Madimi+One&display=swap");
+
+/*TODO: ELIMINAR ESTILOS PREDEFINIDOS DE LA WEB */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  overflow: hidden;
+
+  font-family: "Madimi One", Arial, Helvetica, sans-serif;
+  cursor: auto;
+}
+
+/*? SEPARACIÓN ENTRE LAS TARJETAS */
+.tarjetas {
+  display: flex;
+
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+/*? TÍTULO */
+.title {
+  position: absolute;
+  top: 80px;
+
+  z-index: 1;
+
+  backdrop-filter: blur(3px);
+
+  color: white;
+  font-size: 100px;
+
+  border-radius: 10px;
+}
+
+/*? LADO IZQUIERDO */
+.tar-1 {
+  width: 40%;
+  height: 100%;
+
+  filter: grayscale(100%);
+
+  background-image: url(13105970_5146900.jpeg);
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-decoration: none;
+
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+
+  /*! ANIDACIÓN DE LA FUNCIÓN DE HOVER */
+  &:hover {
+    scale: 1.2;
+    transition-duration: 1s;
+
+    filter: grayscale(0%);
+  }
+}
+
+.tarjeta1 {
+  border: none;
+  background-color: transparent;
+  font-size: 85px;
+  font-weight: bold;
+
+  border-radius: 10px;
+  backdrop-filter: blur(1px);
+
+  padding: 10px;
+}
+
+/*? LADO DERECHO */
+.tar-2 {
+  width: 40%;
+  height: 100%;
+
+  filter: grayscale(100%);
+
+  background-image: url(computer-program-coding-screen.jpg);
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-decoration: none;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+
+
+  /*! ANIDACIÓN DE LA FUNCIÓN DE HOVER */
+  &:hover {
+    scale: 1.2;
+    transition-duration: 1s;
+
+    filter: grayscale(0%);
+
+  }
+}
+.tarjeta2 {
+  color: white;
+
+  border: none;
+  border-radius: 10px;
+
+  background-color: transparent;
+  backdrop-filter: blur(3px);
+
+  padding: 10px;
+
+  font-size: 85px;
+  font-weight: bold;
+}
+.tar-3 {
+  width: 40%;
+  height: 100%;
+
+  filter: grayscale(100%);
+
+  background-image: url(microsoft\ azure\ almirall.jpg);
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-decoration: none;
+
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+
+  
+    /*! ANIDACIÓN DE LA FUNCIÓN DE HOVER */
+&:hover {
+  scale: 1.2;
+  transition-duration: 1s;
+  }
+}
+.tarjeta3{
+  color: white;
+
+  border: none;
+  border-radius: 10px;
+
+  background-color: transparent;
+  backdrop-filter: blur(3px);
+
+  padding: 10px;
+
+  font-size: 85px;
+  font-weight: bold;
+}
+  .pie-pagina {
+    position: absolute;
+  
+    bottom: 0px;
+  
+    color: #fff;
+    background-color: #000;
+  
+    width: 100%;
+    height: 50px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
